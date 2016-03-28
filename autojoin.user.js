@@ -6,8 +6,8 @@
 // @author			Pepperooney
 // @include			http://steamcommunity.com/groups/*
 // @supportURL   	https://github.com/Pepperooney/SteamGroupAutoJoiner/issues
-// @updateURL    	https://github.com/Pepperooney/SteamGroupAutoJoiner/raw/master/autojoin.user.js
-// @downloadURL  	https://github.com/Pepperooney/SteamGroupAutoJoiner/raw/master/autojoin.user.js
+// @updateURL    	https://raw.githubusercontent.com/Pepperooney/SteamGroupAutoJoiner/master/autojoin.user.js
+// @downloadURL  	https://raw.githubusercontent.com/Pepperooney/SteamGroupAutoJoiner/master/autojoin.user.js
 // @grant 			window.close
 // ==/UserScript==
 var content = document.body.textContent || document.body.innerText;

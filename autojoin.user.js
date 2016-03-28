@@ -1,10 +1,13 @@
 // ==UserScript==
 // @name		SteamGroupAutoJoiner
-// @namespace	http://steamcommunity.com/id/Rooney_10
+// @namespace	SteamGroupAutoJoiner
 // @description	Autojoins steam groups
 // @version		0.1
 // @author		Pepperooney
 // @include		http://steamcommunity.com/groups/*
+// @supportURL   https://github.com/Pepperooney/SteamGroupAutoJoiner/issues
+// @updateURL    https://github.com/Pepperooney/SteamGroupAutoJoiner/raw/master/autojoin.user.js
+// @downloadURL  https://github.com/Pepperooney/SteamGroupAutoJoiner/raw/master/autojoin.user.js
 // @grant window.close
 // ==/UserScript==
 
@@ -21,7 +24,5 @@ if(hasTextru){
 
     javascript:document.forms['join_group_form'].submit();
 }
-
-
 
 setTimeout (window.close, 5000);

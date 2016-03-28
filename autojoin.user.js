@@ -16,7 +16,7 @@ if(hasText){
     javascript:document.forms['join_group_form'].submit();
 }
 //to do
-var hasTextru = content.indexOf("Ïðèñîåäèíèòüñÿ")!==-1; 
+var hasTextru = content.indexOf("Присоединиться")!==-1; 
 if(hasTextru){
     javascript:document.forms['join_group_form'].submit();
 }
